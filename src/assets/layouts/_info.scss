@@ -1,0 +1,28 @@
+@import "../base/resets";
+@import "../base/typography";
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+.info {
+  margin: 3rem 5%;
+  display: block;
+  border-radius: 5px;
+  background: #fff;
+  overflow: hidden;
+
+  a {
+    img {
+      width: 100%;
+      position: relative;
+    }
+  }
+
+  &__wrap {
+  }
+
+  &__left {
+  }
+
+  &__right {
+  }
+}

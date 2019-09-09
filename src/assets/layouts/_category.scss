@@ -1,0 +1,55 @@
+@import "../base/resets";
+@import "../base/typography";
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+.category {
+  font-family: "'Conv_Linotype - Helvetica Neue LT GEO 55 Roman'";
+  margin: 0 5%;
+
+  @include md-up {
+    margin: 0 2%;
+  }
+
+  &__title {
+    color: #202020;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 0 1rem;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__list-item {
+    list-style-type: none;
+    width: 25%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    @include md-up {
+      width: 50%;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      padding: 0 9px;
+      text-decoration: none;
+
+      span {
+        color: #202021;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__image {
+    width: 100%;
+    min-height: 22rem;
+    background-color: grey;
+  }
+}

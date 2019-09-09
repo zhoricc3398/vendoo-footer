@@ -52,14 +52,14 @@
           <div class="footer-wrap__blog__blog-item">
             <img
               class="footer-wrap__blog__blog-item__blogimg"
-              src="../assets/Image_86.png"
+              src="../assets/images/Image_86.png"
               alt="image"
             /><a href="#">როგორ შევიძინოთ ტექნიკა ვენდუს საიტზე</a>
           </div>
           <div class="footer-wrap__blog__blog-item">
             <img
               class="footer-wrap__blog__blog-item__blogimg"
-              src="../assets/Image_87.png"
+              src="../assets/images/Image_87.png"
               alt="image"
             /><a href="#">როგორ შევიძინოთ ტექნიკა ვენდუს საიტზე</a>
           </div>
@@ -74,7 +74,7 @@
         <div class="footer-wrap__tbc">
           <span>Powered by:</span>
           <a href="">
-            <img src="../assets/Image_61.png" alt="" />
+            <img src="../assets/images/Image_61.png" alt="" />
           </a>
         </div>
       </div>

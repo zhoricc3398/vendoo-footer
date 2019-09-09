@@ -1,46 +1,81 @@
 <template>
   <div class="footer">
-    <div class="footer__content--top">
-      <div class="links-group">
-        <div class="links-group__column">
-          <h4>ჩვენ შესახებ</h4>
+    <div class="footer-wrap">
+      <div class="footer-wrap__top">
+        <div class="footer-wrap__column">
+          <h4 class="footer-wrap__title">ჩვენ შესახებ</h4>
           <ul>
-            <li><a href="#">კარიერა</a></li>
-            <li><a href="#">გუნდი</a></li>
+            <li class="footer-wrap__list-item"><a href="#">კარიერა</a></li>
+            <li class="footer-wrap__list-item"><a href="#">გუნდი</a></li>
           </ul>
         </div>
-        <div class="links-group__column">
-          <h4>ჩემი ანგარიში</h4>
+        <div class="footer-wrap__column">
+          <h4 class="footer-wrap__title">ჩემი ანგარიში</h4>
           <ul>
-            <li><a href="#">ანგარიში</a></li>
-            <li><a href="#">შეკვეთები</a></li>
-            <li><a href="#">ხშირად დასმული კითხვები</a></li>
-            <li><a href="#">დახმარება</a></li>
+            <li class="footer-wrap__list-item"><a href="#">ანგარიში</a></li>
+            <li class="footer-wrap__list-item"><a href="#">შეკვეთები</a></li>
+            <li class="footer-wrap__list-item">
+              <a href="#">ხშირად დასმული კითხვები</a>
+            </li>
+            <li class="footer-wrap__list-item"><a href="#">დახმარება</a></li>
           </ul>
         </div>
-        <div class="links-group__column">
-          <h4>დაიწყე გაყიდვა ჩვენთან</h4>
+        <div class="footer-wrap__column">
+          <h4 class="footer-wrap__title">დაიწყე გაყიდვა ჩვენთან</h4>
           <ul>
-            <li><a href="#">უპირატესობები</a></li>
-            <li><a href="#">პირობები</a></li>
-            <li><a href="#">რეგისტრაცია</a></li>
+            <li class="footer-wrap__list-item">
+              <a href="#">უპირატესობები</a>
+            </li>
+            <li class="footer-wrap__list-item"><a href="#">პირობები</a></li>
+            <li class="footer-wrap__list-item"><a href="#">რეგისტრაცია</a></li>
           </ul>
         </div>
-        <div class="links-group__column">
-          <h4>პირობები</h4>
+        <div class="footer-wrap__column">
+          <h4 class="footer-wrap__title">პირობები</h4>
           <ul>
-            <li><a href="#">გადახდის საშუალებები</a></li>
-            <li><a href="#">მიტანის სერვისი</a></li>
-            <li><a href="#">დაბრუნების პოლიტიკა</a></li>
-            <li><a href="#">მონაცემების უსაფრთხოება</a></li>
+            <li class="footer-wrap__list-item">
+              <a href="#">გადახდის საშუალებები</a>
+            </li>
+            <li class="footer-wrap__list-item">
+              <a href="#">მიტანის სერვისი</a>
+            </li>
+            <li class="footer-wrap__list-item">
+              <a href="#">დაბრუნების პოლიტიკა</a>
+            </li>
+            <li class="footer-wrap__list-item">
+              <a href="#">მონაცემების უსაფრთხოება</a>
+            </li>
           </ul>
         </div>
-        <div class="links-group__column">
-          <h4><a href="#">ბლოგი</a></h4>
-          <ul>
-            <li><a href="#">როგორ შევიძინოთ ტექნიკა ვენდუს საიტზე</a></li>
-            <li><a href="#">როგორ შევიძინოთ ტექნიკა ვენდუს საიტზე</a></li>
-          </ul>
+        <div class="footer-wrap__blog">
+          <h4 class="footer-wrap__title"><a href="#">ბლოგი</a></h4>
+          <div class="footer-wrap__blog__blog-item">
+            <img
+              class="footer-wrap__blog__blog-item__blogimg"
+              src="../assets/Image_86.png"
+              alt="image"
+            /><a href="#">როგორ შევიძინოთ ტექნიკა ვენდუს საიტზე</a>
+          </div>
+          <div class="footer-wrap__blog__blog-item">
+            <img
+              class="footer-wrap__blog__blog-item__blogimg"
+              src="../assets/Image_87.png"
+              alt="image"
+            /><a href="#">როგორ შევიძინოთ ტექნიკა ვენდუს საიტზე</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-wrap__bottom">
+        <span class="footer-wrap__copyright">©2019, ყველა უფლება დაცულია</span>
+        <div class="footer-wrap__icons">
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-wrap__tbc">
+          <span>Powered by:</span>
+          <a href="">
+            <img src="../assets/Image_61.png" alt="" />
+          </a>
         </div>
       </div>
     </div>
@@ -51,38 +86,4 @@
 export default {};
 </script>
 
-<style lang="scss">
-html {
-  font-size: 62.5%;
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    background-color: blue;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
-  .footer {
-    background-color: red;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .footer {
-    display: flex;
-    justify-content: center;
-
-    &__content--top {
-      width: 130rem;
-
-      .links-group {
-        display: flex;
-
-        &__column {
-        }
-      }
-    }
-  }
-}
-</style>
+<style lang="scss"></style>

@@ -1,0 +1,15 @@
+@mixin xs-up {
+  @media (max-width: 22.5rem) { @content; }
+}
+@mixin sm-up {
+  @media (max-width: 36rem) { @content; }
+}
+@mixin md-up {
+  @media (max-width: 48rem) { @content; }
+}
+@mixin lg-up {
+  @media (max-width: 64rem) { @content; }
+}
+@mixin xl-up {
+  @media (max-width: 82rem) { @content; }
+}

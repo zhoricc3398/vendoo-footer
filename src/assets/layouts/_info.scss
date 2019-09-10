@@ -19,12 +19,6 @@
       float: left;
       border-radius: 0;
     }
-
-    > img {
-      @include md-up {
-        border-radius: 0.5rem;
-      }
-    }
   }
 
   &__wrap {

@@ -4,15 +4,18 @@
 @import "../abstracts/variables";
 
 .category {
-  font-family: "'Conv_Linotype - Helvetica Neue LT GEO 55 Roman'";
-  margin: 0 5%;
+  font-family: $font-2;
+  padding: 0 5%;
+  margin: auto;
+  max-width: 130rem;
 
   @include md-up {
-    margin: 0 2%;
+    padding: 0 2%;
+    margin: auto;
   }
 
   &__title {
-    color: #202020;
+    color: $color-7;
     font-size: 20px;
     font-weight: 400;
     padding: 0 0 1rem;
@@ -40,7 +43,7 @@
       text-decoration: none;
 
       span {
-        color: #202021;
+        color: $color-6;
         font-size: 14px;
         font-weight: 400;
       }
@@ -49,7 +52,6 @@
 
   &__image {
     width: 100%;
-    min-height: 22rem;
-    background-color: grey;
+    background-color: $bg-color-1;
   }
 }

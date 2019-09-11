@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <app-slider></app-slider>
-    <app-info></app-info>
-    <app-category></app-category>
-    <app-footer></app-footer>
+    <product-slider></product-slider>
+    <home-info></home-info>
+    <home-category></home-category>
+    <main-footer></main-footer>
   </div>
 </template>
 
 <script>
-import Info from "./components/Info";
-import Category from "./components/Category";
-import Footer from "./components/Footer";
-import Slider from "./components/Slider";
+import HomeInfo from "./components/HomeInfo";
+import HomeCategory from "./components/HomeCategory";
+import MainFooter from "./components/MainFooter";
+import ProductSlider from "./components/ProductSlider";
 
 export default {
   components: {
-    appFooter: Footer,
-    appCategory: Category,
-    appInfo: Info,
-    appSlider: Slider
+    MainFooter,
+    HomeCategory,
+    HomeInfo,
+    ProductSlider
   }
 };
 </script>

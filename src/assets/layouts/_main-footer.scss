@@ -3,12 +3,12 @@
 @import "../abstracts/mixins";
 @import "../abstracts/variables";
 
-.footer {
+.main-footer {
   width: 100%;
   background-color: $bg-color-1;
   font-family: $font-1;
 
-  .footer-wrap {
+  .main-footer-wrap {
     padding: 0 5%;
     margin: auto;
     display: flex;

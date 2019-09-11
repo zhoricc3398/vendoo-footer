@@ -26,7 +26,7 @@
       display: flex;
       justify-content: space-between;
       padding: 4.5rem 0 5rem;
-      border-bottom: 1px solid $color-8;
+      border-bottom: 0.1rem solid $color-8;
 
       @include md-up {
         flex-direction: column;
@@ -42,10 +42,10 @@
 
     &__title {
       color: $color-1;
-      font-size: 14px;
+      font-size: 1.4rem;
       font-weight: 300;
-      letter-spacing: 0.42px;
-      margin-bottom: 20px;
+      letter-spacing: 0.042rem;
+      margin-bottom: 2rem;
     }
 
     &__list-item {
@@ -53,10 +53,10 @@
 
       a {
         color: $color-1;
-        font-size: 12px;
+        font-size: 1.2rem;
         font-weight: 300;
-        letter-spacing: 0.36px;
-        line-height: 30px;
+        letter-spacing: 0.036rem;
+        line-height: 3rem;
         text-decoration: none;
       }
     }
@@ -77,10 +77,10 @@
 
         a {
           color: $color-1;
-          font-size: 12px;
+          font-size: 1.2rem;
           font-weight: 300;
-          letter-spacing: 0.36px;
-          line-height: 30px;
+          letter-spacing: 0.036rem;
+          line-height: 3rem;
           text-decoration: none;
         }
 
@@ -107,9 +107,9 @@
 
     &__copyright {
       color: $color-1;
-      font-size: 12px;
+      font-size: 1.2rem;
       font-weight: 300;
-      letter-spacing: 0.36px;
+      letter-spacing: 0.036rem;
 
       @include md-up {
         padding-bottom: 1rem;
@@ -127,10 +127,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid $color-5;
+        border: 0.1rem solid $color-5;
         border-radius: 50%;
-        width: 36px;
-        height: 36px;
+        width: 3.6rem;
+        height: 3.6rem;
         text-decoration: none;
         margin-right: 1rem;
 
@@ -139,7 +139,7 @@
         }
 
         .fa {
-          font-size: 16px;
+          font-size: 1.6rem;
           color: $color-1;
         }
       }
@@ -151,9 +151,9 @@
 
       span {
         color: $color-1;
-        font-size: 12px;
+        font-size: 1.2rem;
         font-weight: 300;
-        letter-spacing: 0.36px;
+        letter-spacing: 0.036rem;
         margin-right: 1rem;
       }
     }

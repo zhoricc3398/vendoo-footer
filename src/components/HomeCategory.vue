@@ -1,13 +1,12 @@
 <template>
   <div class="home-category">
-    <h4 class="homecategory__title">კატეგორია</h4>
-
+    <h4 class="home-category__title">კატეგორია</h4>
     <div class="home-category__wrap">
       <div class="home-category__list-item">
         <a class="home-category__link" href="#"
           ><img
             class="home-category__image"
-            src="../assets/images/asdasd_12_4_.png"
+            src="../assets/images/asdasd_12_5_.png"
             alt="img1"
           />
           <span class="home-category__product">ტექნიკა</span></a
@@ -17,7 +16,7 @@
         <a class="home-category__link" href="#"
           ><img
             class="home-category__image"
-            src="../assets/images/asdasd_12_5_.png"
+            src="../assets/images/asdasd_12_4_.png"
             alt="img2"
           />
           <span class="home-category__product">ყველაფერი ბავშვებისთვის</span></a

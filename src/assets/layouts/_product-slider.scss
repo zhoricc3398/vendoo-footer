@@ -4,7 +4,7 @@
 @import "../abstracts/variables";
 
 .product-slider {
-  margin: auto;
+  margin: 0 auto 2rem;
   padding: 0 5%;
   max-width: 130rem;
 
@@ -65,8 +65,6 @@
       padding-right: 0;
       padding-bottom: 0;
     }
-
-    @include md-up;
   }
 
   &__image {

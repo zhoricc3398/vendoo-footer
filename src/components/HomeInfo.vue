@@ -1,8 +1,9 @@
-<link rel="stylesheet" href="../assets/base/_resets.scss">
 <template>
   <div class="home-info">
-    <div class="home-info__main">
-      <img src="../assets/images/back.png" alt="" />
+    <div
+      class="home-info__main"
+      style="background-image: url('/src/assets/images/back.png')"
+    >
       <div class="home-info__wrap">
         <div class="home-info__left">
           <h4 class="home-info__title">ყველაფერი მუსიკის მოსასმენად</h4>

@@ -10,11 +10,7 @@
   max-width: 130rem;
 
   @include md-up {
-    padding: 0 2%;
     margin: auto;
-  }
-
-  @include sm-up {
     text-align: center;
   }
 

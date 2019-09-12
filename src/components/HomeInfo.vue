@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../assets/base/_resets.scss">
 <template>
   <div class="home-info">
     <div class="home-info__main">
